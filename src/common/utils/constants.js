@@ -41,3 +41,24 @@ export const PackageName = {
 export const NotificationMessages = {
     genericErrorMessage: "Something went wrong. Please try again later.",
 };
+
+export const OnboardingSlides = [
+    {
+        icon: 'privacy-tip',
+        title: 'Terms & Privacy',
+        subtitle: 'Stay Updated. Stay Safe',
+        description: 'We take your privacy very seriously. Your data is never shared with third parties. We will only use your data to send you weather updates.',
+    },
+    {
+        icon: 'location-on',
+        title: 'Location Permissions',
+        subtitle: 'Get Local Forecasts Wherever You Are',
+        description: 'Enable location permissions to get local weather forecasts. You can always change this later in your settings.',
+    },
+    {
+        icon: 'notifications-on',
+        title: 'Notifications',
+        subtitle: 'Stay Ahead of The Storm',
+        description: 'Enable notifications to get weather alerts. You can always change this later in your settings.',
+    },
+]
